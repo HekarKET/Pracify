@@ -89,7 +89,6 @@ function Main() {
           </div>
 
           <Ellipse key={2} ellipseitem={["light", "trans", "trans", "trans"]} />
-          <div className='description'></div>
         </div>
 
         <div className='subscribe'>
