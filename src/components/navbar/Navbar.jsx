@@ -1,5 +1,6 @@
 import React , {useState} from 'react'
 
+
 function Navbar() {
   const [menu, setmenu] = useState(false)
   const changeMenu = ()=>{
@@ -9,11 +10,14 @@ function Navbar() {
     if(menu){  
       logo.style.display = 'none'  
       menuItem.style.display = 'flex'
-      document.body.style.overflow = "hidden"
+      document.body.style.overflow = "hidden";
+      document.documentElement.style.overflow = "hidden";
+    
     }
     else{
       logo.style.display = 'block'  
       menuItem.style.display = 'none'
+      document.documentElement.style.overflow = "visible";
       document.body.style.overflow = "visible"
     }
 
