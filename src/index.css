@@ -175,6 +175,7 @@ main {
 main .card {
   width: 100%;
   height: 715px;
+  
 }
 
 main .main-intro {
@@ -590,5 +591,6 @@ footer .follow-us .social-logo {
 }
 
 .faint {
+  padding-top: 75px;
   background-color: #fbfefe;
 }
